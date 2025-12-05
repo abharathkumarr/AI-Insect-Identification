@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-12-04T11:54:08.322066",
+  "total_tests": 1,
+  "summary": {
+    "total": 0,
+    "correct_species": 0,
+    "incorrect_species": 0,
+    "no_identification": 0,
+    "accuracy": 0.0
+  },
+  "test_results": [
+    {
+      "test_id": "TC001",
+      "image_name": "darner_1.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T11:53:29.297315",
+      "status": "interrupted",
+      "app_result": null,
+      "classification": null,
+      "error": "Test interrupted by user"
+    }
+  ],
+  "detailed_summary": {
+    "correct_species": [],
+    "incorrect_species": [],
+    "no_identification": [],
+    "uncertain": [],
+    "errors": []
+  }
+}

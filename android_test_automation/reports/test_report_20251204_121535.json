@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-12-04T12:15:35.672204",
+  "total_tests": 3,
+  "summary": {
+    "total": 3,
+    "correct_species": 2,
+    "incorrect_species": 0,
+    "no_identification": 1,
+    "accuracy": 100.0
+  },
+  "test_results": [
+    {
+      "test_id": "TC001",
+      "image_name": "darner_1.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T12:08:19.857773",
+      "status": "passed",
+      "app_result": {
+        "species": "Dragonfly",
+        "confidence": null,
+        "full_text": "dragonfly a species of dragonfly or damselfly scientific name: anisoptera (infraorder) basic information overview a dragonfly is a flying insect belonging to the infraorder anisoptera below the order odonata. about 3,000 extant species of dragonflies are known. most are tropical, with fewer species in temperate regions. loss of wetland habitat threatens dragonfly populations around the world. adult dragonflies are characterised by a pair of large, multifaceted, compound eyes, two pairs of strong, transparent wings, sometimes with coloured patches, and an elongated body. many dragonflies have brilliant iridescent or metallic colours produced by structural coloration, making them conspicuous in flight. an adult dragonfly's compound eyes have nearly 24,000 ommatidia each. basic info effects observation identify",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "correct_species",
+        "reason": "App correctly identified as Dragonfly (expected: darner)",
+        "app_species": "dragonfly_darner",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": null
+    },
+    {
+      "test_id": "TC002",
+      "image_name": "darner_2.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T12:11:29.800701",
+      "status": "passed",
+      "app_result": {
+        "species": "Dragonfly",
+        "confidence": null,
+        "full_text": "dragonfly a species of dragonfly or damselfly scientific name: anisoptera basic information overview a dragonfly is a flying insect belonging to the infraorder anisoptera below the order odonata. about 3,000 extant species of dragonflies are known. most are tropical, with fewer species in temperate regions. loss of wetland habitat threatens dragonfly populations around the world. adult dragonflies are characterised by a pair of large, multifaceted, compound eyes, two pairs of strong, transparent wings, sometimes with coloured patches, and an elongated body. many dragonflies have brilliant iridescent or metallic colours produced by structural coloration, making them conspicuous in flight. an adult dragonfly's compound eyes have nearly 24,000 ommatidia each. basic info effects observation identify",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "correct_species",
+        "reason": "App correctly identified as Dragonfly (expected: darner)",
+        "app_species": "dragonfly_darner",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": null
+    },
+    {
+      "test_id": "TC003",
+      "image_name": "darner_3.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T12:14:17.495017",
+      "status": "interrupted",
+      "app_result": {
+        "species": null,
+        "confidence": null,
+        "full_text": "no insect detected no insect visible we couldn't detect any insects in your photo. this could happen if the insect is too small, blurry, or not clearly visible. tips for better photos &#128269; get closer to the insect (but not too close to startle it) &#128161; use good lighting - natural daylight works best &#128248; keep the camera steady and wait for the insect to stay still &#127919; center the insect in the frame for better detection &#128270; try taking multiple photos from different angles while you're here, did you know? &#129419; amazing migration",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "no_identification",
+        "reason": "App detected no insect in the image",
+        "app_species": "no_insect_visible",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": "Test interrupted by user"
+    }
+  ],
+  "detailed_summary": {
+    "correct_species": [
+      {
+        "test_id": "TC001",
+        "image_name": "darner_1.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T12:08:19.857773",
+        "status": "passed",
+        "app_result": {
+          "species": "Dragonfly",
+          "confidence": null,
+          "full_text": "dragonfly a species of dragonfly or damselfly scientific name: anisoptera (infraorder) basic information overview a dragonfly is a flying insect belonging to the infraorder anisoptera below the order odonata. about 3,000 extant species of dragonflies are known. most are tropical, with fewer species in temperate regions. loss of wetland habitat threatens dragonfly populations around the world. adult dragonflies are characterised by a pair of large, multifaceted, compound eyes, two pairs of strong, transparent wings, sometimes with coloured patches, and an elongated body. many dragonflies have brilliant iridescent or metallic colours produced by structural coloration, making them conspicuous in flight. an adult dragonfly's compound eyes have nearly 24,000 ommatidia each. basic info effects observation identify",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "correct_species",
+          "reason": "App correctly identified as Dragonfly (expected: darner)",
+          "app_species": "dragonfly_darner",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": null
+      },
+      {
+        "test_id": "TC002",
+        "image_name": "darner_2.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T12:11:29.800701",
+        "status": "passed",
+        "app_result": {
+          "species": "Dragonfly",
+          "confidence": null,
+          "full_text": "dragonfly a species of dragonfly or damselfly scientific name: anisoptera basic information overview a dragonfly is a flying insect belonging to the infraorder anisoptera below the order odonata. about 3,000 extant species of dragonflies are known. most are tropical, with fewer species in temperate regions. loss of wetland habitat threatens dragonfly populations around the world. adult dragonflies are characterised by a pair of large, multifaceted, compound eyes, two pairs of strong, transparent wings, sometimes with coloured patches, and an elongated body. many dragonflies have brilliant iridescent or metallic colours produced by structural coloration, making them conspicuous in flight. an adult dragonfly's compound eyes have nearly 24,000 ommatidia each. basic info effects observation identify",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "correct_species",
+          "reason": "App correctly identified as Dragonfly (expected: darner)",
+          "app_species": "dragonfly_darner",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": null
+      }
+    ],
+    "incorrect_species": [],
+    "no_identification": [
+      {
+        "test_id": "TC003",
+        "image_name": "darner_3.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T12:14:17.495017",
+        "status": "interrupted",
+        "app_result": {
+          "species": null,
+          "confidence": null,
+          "full_text": "no insect detected no insect visible we couldn't detect any insects in your photo. this could happen if the insect is too small, blurry, or not clearly visible. tips for better photos &#128269; get closer to the insect (but not too close to startle it) &#128161; use good lighting - natural daylight works best &#128248; keep the camera steady and wait for the insect to stay still &#127919; center the insect in the frame for better detection &#128270; try taking multiple photos from different angles while you're here, did you know? &#129419; amazing migration",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "no_identification",
+          "reason": "App detected no insect in the image",
+          "app_species": "no_insect_visible",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": "Test interrupted by user"
+      }
+    ],
+    "uncertain": [],
+    "errors": []
+  }
+}

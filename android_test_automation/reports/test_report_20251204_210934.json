@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-12-04T21:09:34.219529",
+  "total_tests": 3,
+  "summary": {
+    "total": 3,
+    "correct_species": 1,
+    "incorrect_species": 2,
+    "no_identification": 0,
+    "accuracy": 33.33
+  },
+  "test_results": [
+    {
+      "test_id": "TC001",
+      "image_name": "darner_1.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T21:02:09.344839",
+      "status": "passed",
+      "app_result": {
+        "species": "Dragonfly",
+        "confidence": null,
+        "full_text": "common dragonfly a species of dragonfly scientific name: libellula depressa basic information effects basic info effects observation identify",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "correct_species",
+        "reason": "App correctly identified as Dragonfly (expected: darner)",
+        "app_species": "dragonfly_darner",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": null
+    },
+    {
+      "test_id": "TC002",
+      "image_name": "darner_2.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T21:05:18.324888",
+      "status": "failed",
+      "app_result": {
+        "species": "Monarch Butterfly",
+        "confidence": null,
+        "full_text": "monarch butterfly a species of butterfly scientific name: danaus plexippus basic information effects basic info effects observation identify",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "incorrect_species",
+        "reason": "App identified as 'Monarch Butterfly' but expected dragonfly species (got: darner)",
+        "app_species": "Monarch Butterfly",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": null
+    },
+    {
+      "test_id": "TC003",
+      "image_name": "darner_3.jpg",
+      "image_type": "original",
+      "augmentation": "none",
+      "expected_species": "darner",
+      "timestamp": "2025-12-04T21:07:45.513265",
+      "status": "interrupted",
+      "app_result": {
+        "species": "House Fly",
+        "confidence": null,
+        "full_text": "house fly a species of fly scientific name: musca domestica basic information effects basic info effects observation identify",
+        "status": "no_identification"
+      },
+      "classification": {
+        "category": "incorrect_species",
+        "reason": "App identified as 'House Fly' but expected dragonfly species (got: darner)",
+        "app_species": "House Fly",
+        "expected_species": "darner",
+        "confidence": null
+      },
+      "error": "Test interrupted by user"
+    }
+  ],
+  "detailed_summary": {
+    "correct_species": [
+      {
+        "test_id": "TC001",
+        "image_name": "darner_1.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T21:02:09.344839",
+        "status": "passed",
+        "app_result": {
+          "species": "Dragonfly",
+          "confidence": null,
+          "full_text": "common dragonfly a species of dragonfly scientific name: libellula depressa basic information effects basic info effects observation identify",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "correct_species",
+          "reason": "App correctly identified as Dragonfly (expected: darner)",
+          "app_species": "dragonfly_darner",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": null
+      }
+    ],
+    "incorrect_species": [
+      {
+        "test_id": "TC002",
+        "image_name": "darner_2.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T21:05:18.324888",
+        "status": "failed",
+        "app_result": {
+          "species": "Monarch Butterfly",
+          "confidence": null,
+          "full_text": "monarch butterfly a species of butterfly scientific name: danaus plexippus basic information effects basic info effects observation identify",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "incorrect_species",
+          "reason": "App identified as 'Monarch Butterfly' but expected dragonfly species (got: darner)",
+          "app_species": "Monarch Butterfly",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": null
+      },
+      {
+        "test_id": "TC003",
+        "image_name": "darner_3.jpg",
+        "image_type": "original",
+        "augmentation": "none",
+        "expected_species": "darner",
+        "timestamp": "2025-12-04T21:07:45.513265",
+        "status": "interrupted",
+        "app_result": {
+          "species": "House Fly",
+          "confidence": null,
+          "full_text": "house fly a species of fly scientific name: musca domestica basic information effects basic info effects observation identify",
+          "status": "no_identification"
+        },
+        "classification": {
+          "category": "incorrect_species",
+          "reason": "App identified as 'House Fly' but expected dragonfly species (got: darner)",
+          "app_species": "House Fly",
+          "expected_species": "darner",
+          "confidence": null
+        },
+        "error": "Test interrupted by user"
+      }
+    ],
+    "no_identification": [],
+    "uncertain": [],
+    "errors": []
+  }
+}
